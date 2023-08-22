@@ -1,0 +1,114 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 32rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: .2rem 1rem 3rem rgba(0, 0, 0, .2);
+}
+
+.contents-container {
+    width: 100%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+.heading {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+
+.paragraph {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--Desaturated-blue);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.music {
+    justify-content: space-between;
+    background-color: var(--Very-pale-blue);
+    padding: 1rem 1.5rem;
+    border-radius: .8rem;
+}
+
+.music > div {
+    gap: 2rem;
+}
+
+.music-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--Dark-blue);
+    margin-bottom: .3rem;
+}
+
+.music-price {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+
+.music-change-link {
+    font-size: 1.4rem;
+    color: var(--Bright-blue);
+    font-weight: 700;
+}
+
+.music-change-link:hover,
+.music-change-link:active {
+    text-decoration: none;
+}
+
+.card-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 1.5rem;
+    font-weight: 600;
+    background-color: var(--Bright-blue);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1.5rem var(--Desaturated-blue);
+    transition: background-color .3s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+    background-color: var(--Desaturated-blue);
+}
+
+.cancle-link:link,
+.cancle-link:visited {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    transition: color .3s;
+}
+
+.cancle-link:hover,
+.cancle-link:active {
+    color: var(--Dark-blue);
+}
+
+footer {
+    margin-top: 5rem;
+}

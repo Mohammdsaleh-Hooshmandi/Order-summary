@@ -26,3 +26,13 @@ html {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.margin-top-1 {
+    margin-top: 2.5rem !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
